@@ -31,8 +31,8 @@
                 <x-label for="locale" :value="__('Locale')" />
 
                 <select name="locale" class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full" >
-                    <option value="en" {{ (old('locale') ? old('locale') : 'en' ?? '') == 'en' ? 'selected' : '' }}>EN</option>
-                    <option value="lt" {{ (old('locale') ? old('locale') : 'lt' ?? '') == 'lt' ? 'selected' : '' }}>LT</option>
+                    <option value="en" {{ (old('locale') ? old('locale') : 'en' ?? '') == 'en' ? 'selected' : '' }}>English</option>
+                    <option value="lt" {{ (old('locale') ? old('locale') : 'lt' ?? '') == 'lt' ? 'selected' : '' }}>Lithuanian</option>
                 </select>
             </div>
 
